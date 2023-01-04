@@ -1,0 +1,30 @@
+.users-wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.users-wrapper__description{
+    margin-left: 40px;
+}
+.users-wrapper__title{
+    font-size: 32px;
+}
+.users-wrapper__text{
+    display: flex;
+}
+.users-wrapper__text text{
+    margin-left: 12px;
+}
+.users-wrapper__text label{
+    font-weight: bold;
+}
+.users-wrapper__text .text{
+    margin-left: 8px;
+}
+.users-wrapper__img{
+    width: 100px;
+    height: 100px;
+}
+.users-wrapper__img img{
+    width: 100%;
+}

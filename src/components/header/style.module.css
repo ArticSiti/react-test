@@ -1,0 +1,25 @@
+.menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+}
+.menu-wrapper nav{
+    overflow: hidden;
+}
+.menu-wrapper nav ul{
+    display: flex;
+    list-style-type: none;
+}
+.menu-wrapper nav ul li a{
+    text-decoration: none;
+    padding-left: 15px;
+}
+.menu-wrapper__logo{
+    width: 75px;
+    height: auto;
+}
+.menu-wrapper__logo img{
+    width: 100%;
+    height: auto;
+}

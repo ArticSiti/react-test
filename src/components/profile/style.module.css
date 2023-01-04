@@ -1,0 +1,12 @@
+.profile-page__img{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+.profile-page__img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 6px;
+}

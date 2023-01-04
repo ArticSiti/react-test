@@ -1,0 +1,12 @@
+.posts-wrapper{
+    display: flex;
+    margin: 24px 0px;
+}
+.posts-img{
+    width: 25px;
+    height: 25px;
+    margin-right: 12px;
+}
+.posts-img img{
+    width: 100%;
+}
