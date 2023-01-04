@@ -1,5 +1,6 @@
 .posts-wrapper{
     display: flex;
+    align-items: center;
     margin: 24px 0px;
 }
 .posts-img{
@@ -9,4 +10,20 @@
 }
 .posts-img img{
     width: 100%;
+}
+.posts-img__favorite{
+    width: 15px;
+    height: 20px;
+    margin-left: 12px;
+    position: relative;
+}
+.posts-img__favorite p{
+    position: absolute;
+    top: -5px;
+    left: 15px;
+    font-size: 12px;
+}
+.posts-img__favorite img{
+    width: 100%;
+    cursor: pointer;
 }

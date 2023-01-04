@@ -7,7 +7,10 @@ let posts = (props) =>{
                         <img src="../icons/user.svg" alt=""/>
                     </div>
                     <p>{props.message}</p>
-                    
+                    <div className={style["posts-img__favorite"]}>
+                        <img src="../icons/favorite.svg" alt=""/>
+                        <p>{props.count}</p>
+                    </div>
                 </div>
         </div>
     )

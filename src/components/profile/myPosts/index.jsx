@@ -8,8 +8,8 @@ let myPosts = () =>{
                 <textarea name="" id="" cols="30" rows="10" className={style["new-post__text"]}></textarea>
                 <button className={"button"}>Add now</button>
             </div>
-            <Post message={"Hello, how you?"}/>
-            <Post message={"My name Piter"}/>
+            <Post message={"Hello, how you?"} count={"10"}/>
+            <Post message={"My name Piter"} count={"25"}/>
         </div>
     )
 }
