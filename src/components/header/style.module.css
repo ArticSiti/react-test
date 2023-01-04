@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 12px;
     border-bottom: 1px solid #000;
 }
 .menu-wrapper nav{
